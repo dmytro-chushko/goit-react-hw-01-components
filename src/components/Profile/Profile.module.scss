@@ -1,0 +1,85 @@
+body {
+  font-size: 14px;
+}
+
+p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.profile {
+  width: 300px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.description {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+
+  text-align: center;
+}
+
+.avatar {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+  border-radius: 50%;
+}
+
+.name {
+  margin-bottom: 15px;
+
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.tag, .location {
+  color: grey;
+}
+
+.tag {
+  margin-bottom: 15px;
+}
+
+.location {
+  margin-bottom: 25px;
+}
+
+.stats {
+  display: flex;
+}
+
+.stats li {
+  width: calc(100%/3);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-top: 1px solid #E5EAF1;
+  background-color: #F3F6F9;
+
+  &:not(:last-child) {
+    border-right: 1px solid #E5EAF1;
+  }
+}
+
+.label, .quantity {
+  display: block;
+  text-align: center;
+}
+
+.label {
+  margin-bottom: 10px;
+
+  color: grey;
+}
+
+.quantity {
+  font-size: 16px;
+  font-weight: 700;
+}
