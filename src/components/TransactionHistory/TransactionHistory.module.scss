@@ -1,0 +1,40 @@
+.transactionHistory {
+  width: 600px;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.headCell,
+.ordinaryCell {
+  padding: 15px 0;
+}
+
+.headRow {
+  background-color: #00BCD5;
+}
+
+.headCell {
+  font-weight: 700;
+  color: white;
+
+  &:not(:last-of-type) {
+    border-right: 1px solid #fff;
+  }
+}
+
+.ordinaryCell {
+  border-left: 1px solid #F9F9F9;
+
+  color: grey;
+
+  &:last-of-type {
+    border-right: 1px solid #F9F9F9;
+  }
+}
+
+.ordinaryRow {
+  &:nth-of-type(2n) {
+    background-color: #ECF1F4;
+  }
+}
+
