@@ -3,8 +3,6 @@ import scss from './Profile.module.scss';
 
 export const Profile = ({ username, tag, location, avatar, stats }) => {
   
-  // const { profile, description, avatar, name, tag, location, stats, label, quantity } = scss;
-  
   return (
   
     <div className={scss.profile}>
